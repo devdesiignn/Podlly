@@ -1,0 +1,20 @@
+.nav-list {
+  list-style: none;
+  display: flex;
+  gap: 4.4rem;
+}
+/* .nav-item {
+} */
+.nav-link:link,
+.nav-link:visited {
+  text-decoration: none;
+  color: var(--black);
+  font-size: 1.8rem;
+
+  transition: text-decoration 0.2s;
+}
+.nav-link:hover,
+.nav-link:active {
+  text-decoration: underline;
+  font-weight: 500;
+}

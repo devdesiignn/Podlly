@@ -1,0 +1,27 @@
+.section-speaker {
+  padding: 5.6rem 13rem 9.6rem;
+
+  display: flex;
+  flex-direction: column;
+  align-content: flex-start;
+
+  gap: 8rem;
+}
+.speaker-t-container {
+  width: 50%;
+}
+.speaker-t-container-top {
+  display: flex;
+
+  flex-direction: column;
+  align-content: flex-start;
+
+  gap: 5.6rem;
+}
+
+.speaker-i-container {
+  display: flex;
+  gap: 3.6rem;
+
+  /* flex-wrap: no-wrap; */
+}

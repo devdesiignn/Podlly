@@ -1,0 +1,19 @@
+.section-hero {
+  padding: 7.2rem 0 0;
+}
+
+.text-container {
+  padding: 0 11rem;
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 11rem;
+
+  margin-bottom: 6.4rem;
+}
+
+.image-container {
+  align-items: end;
+  justify-items: center;
+}

@@ -1,0 +1,55 @@
+.footer {
+  padding: 7.2rem 13rem 0;
+  background-color: var(--green);
+  color: var(--white);
+
+  font-size: 1.8rem;
+}
+
+.box-1,
+.box-2 {
+  border-right: 2px solid var(--white);
+}
+.box-1,
+.box-2,
+.box-3 {
+  padding-left: 4rem;
+}
+.cont {
+  display: flex;
+  gap: 5.6rem;
+
+  margin-bottom: 3.6rem;
+}
+
+.cont ul {
+  list-style: none;
+}
+
+.cont li:not(:last-child) {
+  margin-bottom: 2rem;
+}
+
+.cont a {
+  color: var(--white);
+  text-decoration: none;
+}
+.line-2,
+.line-3 {
+  font-size: 1.8rem;
+  display: flex;
+  gap: 2.4rem;
+  justify-content: center;
+  padding: 6rem 0;
+
+  border-top: 2px solid var(--white);
+}
+.line-3 a:link,
+.line-3 a:visited {
+  text-decoration: none;
+  color: var(--white);
+}
+.line-3 a:hover,
+.line-3 a:active {
+  text-decoration: underline;
+}

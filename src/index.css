@@ -1,0 +1,61 @@
+html {
+  font-size: 62.5%;
+}
+
+:root {
+  --black: #000000;
+  --white: #ffffff;
+
+  --grey-dark: #122940;
+  --grey-light: #808080;
+
+  --yellow: #f4b848;
+  --magenta: #d95842;
+  --green: #1c4932;
+
+  --carton-dark: #f4daab;
+  --carton-light: #fcedd1;
+}
+
+body {
+  font-family: "Space Grotesk", sans-serif;
+  font-weight: 400;
+  line-height: 1;
+
+  color: var(--black);
+  background-color: var(--carton-light);
+  border: 2px solid var(--black);
+}
+
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(8, 1fr);
+  column-gap: 4rem;
+}
+
+.grid--2-cols {
+  grid-template-columns: repeat(2, 1fr);
+  column-gap: 15rem;
+  row-gap: 3.6rem;
+}
+
+.grid--3-cols {
+  grid-template-columns: repeat(3, 1fr);
+}
+
+.grid--5-cols {
+  grid-template-columns: repeat(5, 1fr);
+  column-gap: 13rem !important;
+}
+
+.border-bottom {
+  border-bottom: 2px solid var(--black);
+}

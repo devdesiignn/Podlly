@@ -1,0 +1,289 @@
+/* 1565 Screen and Above */
+@media (min-width: 97.82em) {
+  body {
+    max-width: 1565px;
+    margin: 0 auto;
+  }
+}
+
+@media (max-width: 86em) {
+  .image-container {
+    column-gap: 2rem;
+  }
+
+  .image-card-img {
+    width: 95%;
+    height: 100%;
+  }
+  .image-card-details {
+    translate: -55% 0;
+  }
+  .featured-image-container {
+    column-gap: 8rem !important;
+  }
+}
+
+@media (max-width: 75em) {
+  html {
+    font-size: 56.25%;
+  }
+  .text-container {
+    flex-wrap: wrap;
+    gap: 4rem;
+  }
+
+  /* .image-card-img {
+    width: 95%;
+  } */
+
+  .cont {
+    gap: 3.6rem;
+  }
+
+  .featured-image-container {
+    column-gap: 4rem !important;
+  }
+}
+@media (max-width: 62.5em) {
+  .text-container {
+    padding: 0 8rem;
+  }
+  .image-container {
+    grid-template-columns: repeat(4, 1fr);
+  }
+  .image-card-img {
+    width: 100%;
+  }
+
+  .section-who {
+    /* flex-wrap: wrap; */
+
+    padding: 4.8rem 8rem 9.6rem;
+
+    justify-content: space-between;
+    align-items: center;
+    gap: 4rem;
+  }
+
+  .how-t-container-top {
+    gap: 4rem;
+  }
+
+  .section-how {
+    padding: 5.6rem 8rem 9.6rem;
+  }
+  .section-speaker {
+    padding: 5.6rem 8rem 9.6rem;
+  }
+  .speaker-i-container {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  .speaker-card {
+    flex-basis: 70%;
+  }
+  .speaker-t-container {
+    width: 100%;
+  }
+  .banner-heading {
+    font-size: 2.8rem;
+  }
+  .banner-music-icon {
+    width: 90%;
+  }
+  .section-form {
+    padding: 5.6rem 8rem 9.6rem;
+  }
+  .section-form h1 {
+    width: 100%;
+  }
+  .footer {
+    padding: 7.2rem 8rem 0;
+  }
+
+  .featured-image-container {
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+
+    justify-items: center;
+  }
+
+  .featured-image-box:last-child {
+    grid-column: 1 / -1;
+  }
+}
+@media (max-width: 56.25em) {
+  .header {
+    padding: 3.6rem 4.8rem;
+  }
+
+  .section-who {
+    justify-content: center;
+  }
+
+  .image-card-img {
+    width: 90%;
+  }
+
+  .image-card-details {
+    translate: -60% 0;
+  }
+
+  .how-i-container {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  .card {
+    flex-basis: 80%;
+  }
+
+  .banner {
+    flex-wrap: wrap;
+  }
+  .banner-aside {
+    flex-basis: 100%;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .footer {
+    padding: 7.2rem 4rem 0;
+  }
+
+  .line-1 {
+    column-gap: 0rem;
+  }
+}
+@media (max-width: 50em) {
+  .section-featured {
+    padding: 3.6rem 4rem;
+  }
+
+  .image-card-img {
+    width: 100%;
+  }
+
+  .section-who {
+    flex-wrap: wrap;
+  }
+
+  .t-container {
+    flex-basis: 100%;
+  }
+}
+@media (max-width: 37.5em) {
+  html {
+    font-size: 50%;
+  }
+  .header .nav {
+    display: none;
+  }
+  .text-container {
+    padding: 0 4rem;
+  }
+
+  .image-container {
+    grid-template-columns: 1fr;
+  }
+
+  .image-card-details {
+    translate: -50% 0;
+  }
+
+  .card {
+    flex-basis: 100%;
+  }
+
+  .speaker-card {
+    flex-basis: 100%;
+  }
+
+  .wrap {
+    padding: 4rem;
+
+    align-items: center;
+  }
+
+  .banner-image {
+    width: 100%;
+  }
+
+  .banner-text-box {
+    gap: 4rem;
+  }
+
+  .form {
+    grid-template-columns: 1fr;
+  }
+
+  .line-1 {
+    grid-template-columns: 1fr;
+    justify-items: self-start;
+  }
+
+  .box-1,
+  .box-2 {
+    border: none;
+  }
+
+  .cont {
+    gap: 8rem;
+  }
+
+  .box-1,
+  .box-2,
+  .box-3 {
+    padding-left: 0rem;
+  }
+
+  .banner-image {
+    display: none;
+  }
+
+  .wrap {
+    gap: 2rem;
+  }
+}
+
+@media (max-width: 25em) {
+  .header {
+    padding: 3.6rem;
+  }
+
+  .section-who {
+    padding: 4.8rem 4rem 9.6rem;
+  }
+  .section-how {
+    padding: 5.6rem 4rem 9.6rem;
+  }
+
+  .section-speaker {
+    padding: 5.6rem 4rem 9.6rem;
+  }
+
+  .section-form {
+    padding: 5.6rem 4rem 9.6rem;
+  }
+
+  .section-hero .heading-primary,
+  .t-container-top .heading-primary-container:nth-child(2) .heading-primary,
+  .how-t-container-top .heading-primary-container:nth-child(2) .heading-primary,
+  .speaker-t-container-top
+    .heading-primary-container:nth-child(2)
+    .heading-primary,
+  .section-form .heading-primary {
+    font-size: 4rem !important;
+    line-height: 5rem !important;
+  }
+
+  .line-2,
+  .line-3 {
+    flex-wrap: wrap;
+  }
+
+  .header {
+    padding: 3.6rem 2rem;
+  }
+}

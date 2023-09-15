@@ -1,0 +1,24 @@
+.button:link,
+.button:visited {
+  display: inline-block;
+
+  text-decoration: none;
+  font-size: 1.8rem;
+
+  color: var(--black);
+
+  padding: 1rem 1.6rem;
+  
+
+  background-color: var(--yellow);
+
+  border: 2px solid var(--black);
+  border-radius: 0.4rem;
+
+  transition: transform 0.2s;
+}
+
+.button:hover,
+.button:active {
+  transform: translate(0px, 4px);
+}

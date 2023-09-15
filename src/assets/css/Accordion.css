@@ -1,0 +1,16 @@
+.accordion {
+  display: flex;
+  gap: 0.8rem;
+
+  justify-content: center;
+}
+.square {
+  width: 1.6rem;
+  height: 1.6rem;
+
+  background-color: var(--grey-light);
+  cursor: pointer;
+}
+.active {
+  background-color: var(--black);
+}

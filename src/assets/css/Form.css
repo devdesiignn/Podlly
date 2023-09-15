@@ -1,0 +1,46 @@
+.section-form {
+  padding: 5.6rem 16rem 9.6rem;
+}
+.section-form h1 {
+  width: 65%;
+}
+.form-container {
+  margin-top: 8rem;
+}
+.form {
+  margin-bottom: 9.6rem;
+}
+label {
+  font-size: 2.4rem;
+  font-weight: 700;
+
+  margin-bottom: 2.8rem;
+}
+input,
+textarea {
+  font-family: inherit;
+  height: 6rem;
+  font-size: 2rem;
+
+  border: none;
+  border-bottom: 2px solid var(--black);
+  background-color: transparent;
+
+  padding-left: 1rem;
+  transition: outline 0.2s ease;
+}
+input:focus,
+textarea:focus {
+  /* border: none; */
+  outline: 4px solid var(--black);
+}
+.input-group {
+  display: flex;
+  flex-direction: column;
+}
+textarea {
+  height: 12rem;
+}
+.textarea {
+  grid-column: 1 / -1;
+}

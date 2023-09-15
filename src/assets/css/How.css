@@ -1,0 +1,31 @@
+.section-how {
+  padding: 5.6rem 13rem 9.6rem;
+
+  display: flex;
+  flex-direction: column;
+  align-content: flex-start;
+
+  /* justify-content: space-between;
+  align-items: center; */
+  gap: 4rem;
+}
+/* .how-t-container {
+  flex-basis: 50%;
+} */
+.how-t-container-top {
+  display: flex;
+
+  flex-direction: column;
+  align-content: flex-start;
+
+  gap: 5.6rem;
+
+  margin-bottom: 4rem;
+}
+
+.how-i-container {
+  display: flex;
+  gap: 3.6rem;
+
+  /* flex-wrap: wrap; */
+}

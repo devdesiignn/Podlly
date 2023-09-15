@@ -1,0 +1,9 @@
+.section-featured {
+  padding: 3.6rem 13rem;
+}
+.featured-image-container {
+  align-items: center;
+  justify-items: center;
+
+  justify-content: center;
+}

@@ -1,0 +1,10 @@
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 3.6rem 9.6rem;
+}
+/* .logo-box{}
+.logo{} 
+.nav {
+} */
